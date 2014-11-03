@@ -1,0 +1,27 @@
+metadata:
+    name: ltp
+    format: "Lava-Test-Shell Test Definition 1.0"
+    version: 20140422
+    description: "Run LTP test suite on OpenEmbedded."
+    maintainer:
+        - milosz.wasilewski@linaro.org
+        - fathi.boudra@linaro.org
+    os:
+        - openembedded
+    scope:
+        - functional
+    devices:
+	- beaglebone-black
+
+params:
+    TST_CMDFILES: syscalls,mm,math,timers,fcntl-locktests,ipc,fsx,fs,hugetlb,io,nptl,pty,containers,fs_bind,filecaps,admin_tools,connectors
+
+run:
+    steps:
+        - './common/scripts/ltpfixup.sh $TST_CMDFILES'
+
+parse:
+    pattern: "^(?!.+ED)(?P<test_case_id>\\w+)\\s+(?P<result>\\w+)\\s+\\d$"
+    fixupdict:
+        FAIL: fail
+        PASS: pass
