@@ -13,7 +13,7 @@ if [ "$#" -gt 1 ]; then
 fi
 cd $LTP_PATH
 ./runltp -p -q -f ddt/$1 -l $SCRIPTPATH/LTP_$1.log -C $SCRIPTPATH/LTP_$1.failed | tee $SCRIPTPATH/LTP_$1.out
-find $SCRIPTPATH -name "LTP_$1.log" -print0 |xargs -0 cat
+find $SCRIPTPATH -name "LTP_$1.log" -print0 |xargs cat
 tar czfv $SCRIPTPATH/LTP_$1.tar.gz $SCRIPTPATH/LTP*
 lava-test-case LTP_$1 --result pass
 lava-test-case-attach LTP_$1 $SCRIPTPATH/LTP_$1.tar.gz
