@@ -12,7 +12,7 @@ if [ "$#" -gt 1 ]; then
     LTP_PATH=$2
 fi
 cd $LTP_PATH
-./runltp -p -q -f ddt/$1 -s "EMMC_S_FUNC_EXT2_DD_RW_10M " -l $SCRIPTPATH/LTP_$1.log -C $SCRIPTPATH/LTP_$1.failed | tee $SCRIPTPATH/LTP_$1.out
+./runltp -p -q -f ddt/$1 -s "RW_10M " -l $SCRIPTPATH/LTP_$1.log -C $SCRIPTPATH/LTP_$1.failed | tee $SCRIPTPATH/LTP_$1.out
 find $SCRIPTPATH -name "LTP_$1.log" -print0 |xargs cat
 tar czfv $SCRIPTPATH/LTP_$1.tar.gz $SCRIPTPATH/LTP*
 lava-test-case-attach LTP_$1 $SCRIPTPATH/LTP_$1.tar.gz
