@@ -33,7 +33,7 @@ run:
         - "cd ubuntu/scripts"
         - "./device_read_write_perf.sh"
 parse:
-    pattern: "^test_case_id:(?P<test_case_id>.+)\\s+units:(?P<units>.+)\\s+measurement:(?P<measurement>[\\d\\.]+)\\s+result:(?P<result>\\w+)"
+    pattern: "^test_case_id:(?P<test_case_id>\\S+)\\s+units:(?P<units>\\S+)\\s+measurement:(?P<measurement>[\\d\\.]+)\\s+result:(?P<result>\\w+)"
 fixupdict:
         PASS: pass
         FAIL: fail
