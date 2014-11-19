@@ -50,7 +50,7 @@ test_func(){
         # Get average of device reads in MB/sec
         t_read=(`echo $t_read | awk '{print $1/3}'`)
         echo "Average device read timings: $t_read MB/sec"
-        echo "test_case_id:device_read_write_perf-$test_cmd units:MBperSecond measurement:$t_read result:pass"
+        echo "test_case_id:device_read_write_perf-$test_cmd units:MB/sec measurement:$t_read result:pass"
 }
 
 # Get total block devices
