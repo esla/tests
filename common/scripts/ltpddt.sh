@@ -47,7 +47,7 @@ main()
 
     CMD_FILES=""
     PATTERNS=""
-    PLATFORM=""
+    PLATFORM="/opt/ltp/platforms"
     #default path for ltp-ddt
     LTP_PATH="/opt/ltp"
     LOG_FILE="default"
