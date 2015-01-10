@@ -21,7 +21,7 @@ params:
 
 run:
     steps:
-        - './common/scripts/ltpddt.sh -f $TST_CMDFILES -s $PATTERN'
+        - './common/scripts/ltpddt.sh -f $TST_CMDFILES -s $PATTERNS'
 
 parse:
     pattern: "^(?!.+ED)(?P<test_case_id>\\w+)\\s+(?P<result>\\w+)\\s+\\d$"
