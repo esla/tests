@@ -73,7 +73,7 @@ main()
 
     ## Second parameter is used as a path to LTP installation
     cd $LTP_PATH
-    ./runltp -p -q -P ${PLATFORM} -f ${CMD_FILES} -s $PATTERNS -l $SCRIPTPATH/LTP_${LOG_FILE}.log     \
+    ./runltp -p -q -f ${CMD_FILES} -s $PATTERNS -l $SCRIPTPATH/LTP_${LOG_FILE}.log     \
     -C $SCRIPTPATH/LTP_${LOG_FILE}.failed | tee $SCRIPTPATH/LTP_${LOG_FILE}.out
     find $SCRIPTPATH -name "LTP_${LOG_FILE}.log" -print0 |xargs cat
     tar czfv $SCRIPTPATH/LTP_${LOG_FILE}.tar.gz $SCRIPTPATH/LTP*
