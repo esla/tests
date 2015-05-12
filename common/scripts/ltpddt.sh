@@ -1,6 +1,6 @@
 #! /bin/bash
 #
-# Test ACPI Support in UEFI on v7 and v8
+# LTP-DDT Test wrapper
 #
 # Copyright (C) 2012, Linaro Limited.
 #
