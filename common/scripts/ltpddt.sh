@@ -59,7 +59,7 @@ main()
             P) PLATFORM="$OPTARG";;
             f) 
                CMD_FILES="$OPTARG"
-               LOG_FILE=`echo $OPTARG| sed 's,ddt/,,'`;;
+               LOG_FILE=`echo $OPTARG| sed 's,\/,_,'`;;
             s) PATTERNS="$OPTARG";;
             h) usage;;
         esac
