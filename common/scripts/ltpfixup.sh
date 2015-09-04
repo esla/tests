@@ -12,10 +12,11 @@ SKIPFILE=""
 # Used only for ltp-ddt tests. Only run test cases which match PATTERNS. Patterns are 
 # seperated by a comma
 PATTERNS=""
+PLATFORM=""
 
 LTP_PATH=/opt/ltp
 
-while getopts T:S:P:s: arg
+while getopts T:S:p:s:P: arg
     do case $arg in
         T) 
             TST_CMDFILES="$OPTARG"
@@ -29,8 +30,9 @@ while getopts T:S:P:s: arg
              SKIPFILE="-S `pwd`/$SKIPFILE"
            fi
            ;;
-        P) LTP_PATH=$OPTARG;;
+        p) LTP_PATH=$OPTARG;;
         s) PATTERNS="-s $OPTARG";;
+        P) PLATFORM="-P $OPTARG";;
     esac
 done
 
@@ -38,7 +40,7 @@ cd $LTP_PATH
 RESULT=pass
 
 exec 4>&1
-error_statuses="`((./runltp -p -q -f $TST_CMDFILES -l $SCRIPTPATH/LTP_$LOG_FILE.log -C $SCRIPTPATH/LTP_$LOG_FILE.failed $SKIPFILE $PATTERNS ||  echo "0:$?" >&3) |
+error_statuses="`((./runltp -p -q -f $TST_CMDFILES $PLATFORM -l $SCRIPTPATH/LTP_$LOG_FILE.log -C $SCRIPTPATH/LTP_$LOG_FILE.failed $SKIPFILE $PATTERNS ||  echo "0:$?" >&3) |
         (tee $SCRIPTPATH/LTP_$LOG_FILE.out ||  echo "1:$?" >&3)) 3>&1 >&4`"
 exec 4>&-
 
