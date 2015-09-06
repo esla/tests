@@ -78,7 +78,7 @@ main()
     cd $LTP_PATH
     echo "esla"
     echo "PLATFORM: $PLATFORM"
-    echo "PATTERNS: $PATTERNS_OPTION"
+    echo "PATTERNS: $PATTERNS"
     ./runltp -p -q -f ${CMD_FILES} $PLATFORM $PATTERNS -l $SCRIPTPATH/LTP_${LOG_FILE}.log     \
     -C $SCRIPTPATH/LTP_${LOG_FILE}.failed | tee $SCRIPTPATH/LTP_${LOG_FILE}.out
     find $SCRIPTPATH -name "LTP_${LOG_FILE}.log" -print0 |xargs cat
