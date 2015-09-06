@@ -57,7 +57,7 @@ main()
     do
         case $arg in
             p) LTP_PATH="$OPTARG";;
-            P) PLATFORM="$OPTARG";;
+            P) PLATFORM="-P $OPTARG";;
             f) 
                CMD_FILES="$OPTARG"
                LOG_FILE=`echo $OPTARG| sed 's,\/,_,'`;;
@@ -76,7 +76,7 @@ main()
 
     ## Second parameter is used as a path to LTP installation
     cd $LTP_PATH
-    ./runltp -p -q -f ${CMD_FILES} $PATTERNS_OPTION -l $SCRIPTPATH/LTP_${LOG_FILE}.log     \
+    ./runltp -p -q -f ${CMD_FILES} $PLATFORM $PATTERNS_OPTION -l $SCRIPTPATH/LTP_${LOG_FILE}.log     \
     -C $SCRIPTPATH/LTP_${LOG_FILE}.failed | tee $SCRIPTPATH/LTP_${LOG_FILE}.out
     find $SCRIPTPATH -name "LTP_${LOG_FILE}.log" -print0 |xargs cat
     tar czfv $SCRIPTPATH/LTP_${LOG_FILE}.tar.gz $SCRIPTPATH/LTP*
