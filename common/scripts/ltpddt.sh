@@ -81,7 +81,7 @@ main()
     echo "PATTERNS: $PATTERNS"
     ./runltp -p -q -f ${CMD_FILES} $PLATFORM $PATTERNS -l $SCRIPTPATH/LTP_${LOG_FILE}.log     \
     -C $SCRIPTPATH/LTP_${LOG_FILE}.failed | tee $SCRIPTPATH/LTP_${LOG_FILE}.out
-    find $SCRIPTPATH -name "LTP_${LOG_FILE}.log" -print0 |xargs cat
+    #find $SCRIPTPATH -name "LTP_${LOG_FILE}.log" -print0 |xargs cat
     tar czfv $SCRIPTPATH/LTP_${LOG_FILE}.tar.gz $SCRIPTPATH/LTP*
     lava-test-case-attach LTP_$1 $SCRIPTPATH/LTP_$1.tar.gz
     exit 0
