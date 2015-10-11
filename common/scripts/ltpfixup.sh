@@ -21,8 +21,8 @@ while getopts T:S:p:s:P: arg
     do case $arg in
         T) 
             TST_CMDFILES="$OPTARG"
-            LOG_FILE=`echo $OPTARG| sed 's,\/,_,'`;;
-            echo "$OPTARGS" | grep -q "ddt" && IS_DDT="Yes" || echo ""
+            LOG_FILE=`echo $OPTARG| sed 's,\/,_,'`
+            echo "$OPTARGS" | grep -q "ddt" && IS_DDT="Yes" || echo "";;
         S) OPT=`echo $OPTARG | grep "http"`
            if [ -z $OPT ] ; then
              SKIPFILE="-S $SCRIPTPATH/ltp/$OPTARG"
