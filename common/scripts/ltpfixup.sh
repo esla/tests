@@ -13,6 +13,7 @@ SKIPFILE=""
 # seperated by a comma
 PATTERNS=""
 PLATFORM=""
+IS_DDT=""
 
 LTP_PATH=/opt/ltp
 
@@ -21,6 +22,7 @@ while getopts T:S:p:s:P: arg
         T) 
             TST_CMDFILES="$OPTARG"
             LOG_FILE=`echo $OPTARG| sed 's,\/,_,'`;;
+            echo "$OPTARGS" | grep -q "ddt" && IS_DDT="Yes" || echo ""
         S) OPT=`echo $OPTARG | grep "http"`
            if [ -z $OPT ] ; then
              SKIPFILE="-S $SCRIPTPATH/ltp/$OPTARG"
@@ -49,7 +51,9 @@ if [ $? -ne 0 ]; then
     RESULT=fail
 fi
 lava-test-case LTP_$LOG_FILE --result $RESULT
-cat $SCRIPTPATH/LTP_*.log
+if [ $IS_DDT != "Yes" ]; then
+    cat $SCRIPTPATH/LTP_*.log
+fi
 tar czfv $SCRIPTPATH/LTP_$LOG_FILE.tar.gz $SCRIPTPATH/LTP*
 lava-test-case-attach LTP_$LOG_FILE $SCRIPTPATH/LTP_$LOG_FILE.tar.gz
 exit 0
