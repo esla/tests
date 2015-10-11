@@ -42,7 +42,7 @@ cd $LTP_PATH
 RESULT=pass
 
 exec 4>&1
-error_statuses="`((./runltp -p -q -f $TST_CMDFILES $PLATFORM -l $SCRIPTPATH/LTP_$LOG_FILE.log -C $SCRIPTPATH/LTP_$LOG_FILE.failed $SKIPFILE $PATTERNS ||  echo "0:$?" >&3) |
+error_statuses="`((./runltp -p -q -f $TST_CMDFILES $PLATFORM $PATTERNS -l $SCRIPTPATH/LTP_$LOG_FILE.log -C $SCRIPTPATH/LTP_$LOG_FILE.failed $SKIPFILE ||  echo "0:$?" >&3) |
         (tee $SCRIPTPATH/LTP_$LOG_FILE.out ||  echo "1:$?" >&3)) 3>&1 >&4`"
 exec 4>&-
 
