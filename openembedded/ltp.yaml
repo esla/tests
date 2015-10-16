@@ -25,8 +25,6 @@ params:
     # SKIPFILE: "http://people.linaro.org/~naresh.kamboju/skipfile"
     # NOTE: busybox wget may not work with https link so pefer to use http
     SKIPFILE: ""
-    PATTERNS: ""
-    PLATFORM: ""
 
 run:
     steps:
