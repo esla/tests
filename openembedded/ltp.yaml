@@ -28,7 +28,7 @@ params:
 
 run:
     steps:
-        - './common/scripts/ltpfixup.sh -P $PLATFORM -T $TST_CMDFILES -S $SKIPFILE -s $PATTERNS'
+        - './common/scripts/ltpfixup.sh -P $PLATFORM -T $TST_CMDFILES -s $PATTERNS -S $SKIPFILE'
 
 parse:
     pattern: "^(?!.+ED)(?P<test_case_id>\\w+)\\s+(?P<result>\\w+)\\s+\\d$"
