@@ -56,8 +56,8 @@ exec 4>&-
 if [ $? -ne 0 ]; then
     RESULT=fail
 fi
+lava-test-case LTP_$LOG_FILE --result $RESULT
 if [ $IS_DDT != "Yes" ]; then
-    lava-test-case LTP_$LOG_FILE --result $RESULT
     cat $SCRIPTPATH/LTP_*.log
 fi
 tar czfv $SCRIPTPATH/LTP_$LOG_FILE.tar.gz $SCRIPTPATH/LTP*
