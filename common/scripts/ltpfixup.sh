@@ -17,7 +17,7 @@ IS_DDT=""
 
 LTP_PATH=/opt/ltp
 
-while getopts T:S:p:s:P: arg
+while getopts :T:S:p:s:P: arg
     do case $arg in
         T) 
             TST_CMDFILES="$OPTARG"
@@ -42,7 +42,7 @@ done
 
 cd $LTP_PATH
 echo "esla"
-echo "CMD_FILES: $CMD_FILES"
+echo "TST_CMDFILES: $TST_CMDFILES"
 echo "PLATFORM: $PLATFORM"
 echo "PATTERNS: $PATTERNS"
 RESULT=pass
@@ -56,8 +56,8 @@ exec 4>&-
 if [ $? -ne 0 ]; then
     RESULT=fail
 fi
-lava-test-case LTP_$LOG_FILE --result $RESULT
 if [ $IS_DDT != "Yes" ]; then
+    lava-test-case LTP_$LOG_FILE --result $RESULT
     cat $SCRIPTPATH/LTP_*.log
 fi
 tar czfv $SCRIPTPATH/LTP_$LOG_FILE.tar.gz $SCRIPTPATH/LTP*
