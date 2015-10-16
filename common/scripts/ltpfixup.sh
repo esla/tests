@@ -39,6 +39,10 @@ while getopts T:S:p:s:P: arg
 done
 
 cd $LTP_PATH
+echo "esla"
+echo "CMD_FILES: $CMD_FILES"
+echo "PLATFORM: $PLATFORM"
+echo "PATTERNS: $PATTERNS"
 RESULT=pass
 
 exec 4>&1

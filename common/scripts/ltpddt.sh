@@ -71,12 +71,13 @@ main()
     fi
 
     if [ -n "$PATTERNS" ]; then
-        PATTERNS_OPTION = "-s $PATTERNS"
+        PATTERNS_OPTION="-s $PATTERNS"
     fi
 
     ## Second parameter is used as a path to LTP installation
     cd $LTP_PATH
     echo "esla"
+    echo "CMD_FILES: $CMD_FILES"
     echo "PLATFORM: $PLATFORM"
     echo "PATTERNS: $PATTERNS"
     ./runltp -p -q -f ${CMD_FILES} $PLATFORM $PATTERNS -l $SCRIPTPATH/LTP_${LOG_FILE}.log     \
