@@ -1,0 +1,33 @@
+metadata:
+    name: ltp_ddt
+    format: "Lava-Test-Shell Test Definition 1.0"
+    version: 20151112
+    description: "Run LTP-DDT test suite on Debian."
+    maintainer:
+        - timothy.anzaku@linaro.org
+    os:
+        - debian
+    scope:
+        - functional
+    devices:
+        - dragonboard410c
+        - hikey
+
+params:
+    TST_CMDFILES: ddt/mmc_sdhccard_dd_rw_vfat
+    PLATFORM: dragonboard410c
+    PATTERNS: MMC_S_FUNC_SDHC_VFAT_DD_RW_512K
+
+run:
+    steps:
+        - './common/scripts/ltp-ddt.sh -f $TST_CMDFILES -P $PLATFORM -s $PATTERNS'
+
+parse:
+    pattern: "^(?!.+ED)(?P<test_case_id>\\w+)\\s+(?P<result>\\w+)\\s+\\d$"
+    fixupdict:
+        FAIL: fail
+        PASS: pass
+# To run LTP-DDT tests through this yaml script, it is assumed that
+# the ltp-ddt test has been pre-installed in the debian image.
+# More information about the ltp-ddt test suite can be found at
+# http://arago-project.org/git/projects/test-automation/ltp-ddt.git
