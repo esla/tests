@@ -1,4 +1,6 @@
-t wrapper
+#! /bin/bash
+#
+# LTP-DDT Test wrapper
 #
 # Copyright (C) 2015, Linaro Limited.
 #

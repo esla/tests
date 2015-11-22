@@ -31,3 +31,6 @@ parse:
 # the ltp-ddt test has been pre-installed in the debian image.
 # More information about the ltp-ddt test suite can be found at
 # http://arago-project.org/git/projects/test-automation/ltp-ddt.git
+# WARNING: The test parameters for most usecases will defer from the default
+# TST_CMDFILES, PLATFORM, and PATTERNS. Please set appropriate parameters
+# in your test job. 
