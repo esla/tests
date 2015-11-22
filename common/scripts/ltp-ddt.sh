@@ -78,7 +78,7 @@ main()
     cd $LTP_PATH
     ./runltp -p -q -f ${CMD_FILES} $PLATFORM $PATTERNS -l $SCRIPTPATH/LTP_${LOG_FILE}.log     \
     -C $SCRIPTPATH/LTP_${LOG_FILE}.failed | tee $SCRIPTPATH/LTP_${LOG_FILE}.out
-    tar czfv $SCRIPTPATH/LTP_${LOG_FILE}.tar.gz $SCRIPTPATH/LTP*
+    tar -czvf $SCRIPTPATH/LTP_${LOG_FILE}.tar.gz $SCRIPTPATH/LTP*
     lava-test-case-attach LTP_$1 $SCRIPTPATH/LTP_${LOG_FILE}.tar.gz
     exit 0
 }
