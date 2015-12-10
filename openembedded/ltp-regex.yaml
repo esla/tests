@@ -1,0 +1,39 @@
+metadata:
+    name: ltp
+    format: "Lava-Test-Shell Test Definition 1.0"
+    version: 20140422
+    description: "Run LTP test suite on OpenEmbedded."
+    maintainer:
+        - milosz.wasilewski@linaro.org
+        - fathi.boudra@linaro.org
+    os:
+        - openembedded
+    scope:
+        - functional
+    devices:
+        - rtsm_fvp_base-aemv8a
+        - rtsm_fvp_base_cortex-a57x1-a53x1
+        - rtsm_fvp_base_cortex-a57x4-a53x4
+        - wg
+
+params:
+    TST_CMDFILES: syscalls,mm,math,timers,fcntl-locktests,ipc,fsx,fs,hugetlb,io,nptl,pty,containers,fs_bind,filecaps,admin_tools,connectors
+    # SKIPFILE can be a filename from dir ../common/scripts/ltp/ or an open URL
+    # SKIPFILE: "skipfile-lsk-juno"
+    # "skipfile-lsk-juno" is a known file present in dir ../common/scripts/ltp/
+    # or
+    # SKIPFILE: "http://people.linaro.org/~naresh.kamboju/skipfile"
+    # NOTE: busybox wget may not work with https link so pefer to use http
+    SKIPFILE: ""
+
+run:
+    steps:
+        - './common/scripts/ltpfixup.sh -P $PLATFORM -T $TST_CMDFILES -s $PATTERNS -S $SKIPFILE'
+
+parse:
+    pattern: "(?P<test_case_id>\\w+)\\s+\\d+\\s+(?P<result>\\w+)\\s+:\\s+(?P<message>.+$)"
+    fixupdict:
+        TFAIL: fail
+	TBROK: fail
+        TPASS: pass
+	TCONF: skip
