@@ -31,10 +31,10 @@ run:
         - './common/scripts/ltpfixup.sh -T $TST_CMDFILES -S $SKIPFILE'
 
 parse:
-    pattern: "(?P<test_case_id>\\w+)\\s+\\d+\\s+(?P<result>[A-Z]{5})\\s+:\\s+(?P<message>.+$)"
+    pattern: "(?P<test_case_id>\\w+)\\s+\\d+\\s+(?P<result>(TBROK|TCONF|TFAIL|TPASS|TWARN))\\s+:\\s+(?P<message>.+$)"
     fixupdict:
         TBROK: fail
         TCONF: skip
         TFAIL: fail
         TPASS: pass
-        TWARN: unknown
+	TWARN: unknown
