@@ -33,7 +33,9 @@ run:
 parse:
     pattern: "(?P<test_case_id>\\w+)\\s+\\d+\\s+(?P<result>\\w+)\\s+:\\s+(?P<message>.+$)"
     fixupdict:
+        TBROK: fail
+        TCONF: skip
         TFAIL: fail
-	TBROK: fail
+        TINFO: unknown
         TPASS: pass
-	TCONF: skip
+        TWARN: unknown
