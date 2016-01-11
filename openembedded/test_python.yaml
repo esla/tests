@@ -1,5 +1,5 @@
 metadata:
-    name: busybox
+    name: test
     format: "Lava-Test-Shell Test Definition 1.0"
     description: "Python simple Test"
     maintainer:
