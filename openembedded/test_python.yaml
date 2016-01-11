@@ -14,7 +14,7 @@ metadata:
 run:
     steps:
         - "cd openembedded/scripts"
-        - "./test_python.sh"
+        - "./test_python.py"
 
 parse:
     pattern: "^(?P<test_case_id>[a-zA-Z0-9_-]+):\\s(?P<result>\\w+)"
