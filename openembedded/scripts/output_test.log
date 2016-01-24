@@ -1,0 +1,509 @@
+*******FIRST TEST : Running a simple test**********
+TC_AVP_LS_LR_1.1.3:
+Starting pipeline
+Prerolling...
+Pipeline started
+<position: 0:00:00.358888888 duration: 0:01:30.024000000 speed: 1.000000 />
+<position: 0:00:00.609888888 duration: 0:01:30.024000000 speed: 1.000000 />
+<position: 0:00:00.860222222 duration: 0:01:30.024000000 speed: 1.000000 />
+<position: 0:00:01.110388888 duration: 0:01:30.024000000 speed: 1.000000 />
+<position: 0:00:01.360722222 duration: 0:01:30.024000000 speed: 1.000000 />
+<position: 0:00:01.610888888 duration: 0:01:30.024000000 speed: 1.000000 />
+<position: 0:00:01.861222222 duration: 0:01:30.024000000 speed: 1.000000 />
+<position: 0:00:02.111722222 duration: 0:01:30.024000000 speed: 1.000000 />
+<position: 0:00:02.362888888 duration: 0:01:30.024000000 speed: 1.000000 />
+<position: 0:00:02.613055555 duration: 0:01:30.024000000 speed: 1.000000 />
+<position: 0:00:02.863222222 duration: 0:01:30.024000000 speed: 1.000000 />
+<position: 0:00:03.113388888 duration: 0:01:30.024000000 speed: 1.000000 />
+<position: 0:00:03.363722222 duration: 0:01:30.024000000 speed: 1.000000 />
+<position: 0:00:03.614055555 duration: 0:01:30.024000000 speed: 1.000000 />
+<position: 0:00:03.864222222 duration: 0:01:30.024000000 speed: 1.000000 />
+<position: 0:00:04.114555555 duration: 0:01:30.024000000 speed: 1.000000 />
+<position: 0:00:04.365722222 duration: 0:01:30.024000000 speed: 1.000000 />
+<position: 0:00:04.615888888 duration: 0:01:30.024000000 speed: 1.000000 />
+<position: 0:00:04.866388888 duration: 0:01:30.024000000 speed: 1.000000 />
+<position: 0:00:05.117388888 duration: 0:01:30.024000000 speed: 1.000000 />
+<position: 0:00:05.368388888 duration: 0:01:30.024000000 speed: 1.000000 />
+<position: 0:00:05.618555555 duration: 0:01:30.024000000 speed: 1.000000 />
+<position: 0:00:05.868722222 duration: 0:01:30.024000000 speed: 1.000000 />
+<position: 0:00:06.119055555 duration: 0:01:30.024000000 speed: 1.000000 />
+<position: 0:00:06.369222222 duration: 0:01:30.024000000 speed: 1.000000 />
+<position: 0:00:06.619555555 duration: 0:01:30.024000000 speed: 1.000000 />
+<position: 0:00:06.869722222 duration: 0:01:30.024000000 speed: 1.000000 />
+<position: 0:00:07.120055555 duration: 0:01:30.024000000 speed: 1.000000 />
+<position: 0:00:07.370388888 duration: 0:01:30.024000000 speed: 1.000000 />
+<position: 0:00:07.620555555 duration: 0:01:30.024000000 speed: 1.000000 />
+<position: 0:00:07.870888888 duration: 0:01:30.024000000 speed: 1.000000 />
+<position: 0:00:08.121055555 duration: 0:01:30.024000000 speed: 1.000000 />
+<position: 0:00:08.371388888 duration: 0:01:30.024000000 speed: 1.000000 />
+<position: 0:00:08.621888888 duration: 0:01:30.024000000 speed: 1.000000 />
+<position: 0:00:08.872722222 duration: 0:01:30.024000000 speed: 1.000000 />
+<position: 0:00:09.123388888 duration: 0:01:30.024000000 speed: 1.000000 />
+<position: 0:00:09.373722222 duration: 0:01:30.024000000 speed: 1.000000 />
+<position: 0:00:09.623888888 duration: 0:01:30.024000000 speed: 1.000000 />
+<position: 0:00:09.874222222 duration: 0:01:30.024000000 speed: 1.000000 />
+<position: 0:00:10.124722222 duration: 0:01:30.024000000 speed: 1.000000 />
+<position: 0:00:10.375722222 duration: 0:01:30.024000000 speed: 1.000000 />
+<position: 0:00:10.626222222 duration: 0:01:30.024000000 speed: 1.000000 />
+<position: 0:00:10.876222222 duration: 0:01:30.024000000 speed: 1.000000 />
+<position: 0:00:11.126888888 duration: 0:01:30.024000000 speed: 1.000000 />
+<position: 0:00:11.377722222 duration: 0:01:30.024000000 speed: 1.000000 />
+<position: 0:00:11.627888888 duration: 0:01:30.024000000 speed: 1.000000 />
+<position: 0:00:11.878222222 duration: 0:01:30.024000000 speed: 1.000000 />
+<position: 0:00:12.128888888 duration: 0:01:30.024000000 speed: 1.000000 />
+<position: 0:00:12.379888888 duration: 0:01:30.024000000 speed: 1.000000 />
+<position: 0:00:12.630388888 duration: 0:01:30.024000000 speed: 1.000000 />
+<position: 0:00:12.881722222 duration: 0:01:30.024000000 speed: 1.000000 />
+<position: 0:00:13.132222222 duration: 0:01:30.024000000 speed: 1.000000 />
+<position: 0:00:13.383222222 duration: 0:01:30.024000000 speed: 1.000000 />
+<position: 0:00:13.634055555 duration: 0:01:30.024000000 speed: 1.000000 />
+<position: 0:00:13.884222222 duration: 0:01:30.024000000 speed: 1.000000 />
+<position: 0:00:14.134555555 duration: 0:01:30.024000000 speed: 1.000000 />
+<position: 0:00:14.384722222 duration: 0:01:30.024000000 speed: 1.000000 />
+<position: 0:00:14.635055555 duration: 0:01:30.024000000 speed: 1.000000 />
+<position: 0:00:14.885222222 duration: 0:01:30.024000000 speed: 1.000000 />
+<position: 0:00:15.135722222 duration: 0:01:30.024000000 speed: 1.000000 />
+<position: 0:00:15.386722222 duration: 0:01:30.024000000 speed: 1.000000 />
+<position: 0:00:15.637555555 duration: 0:01:30.024000000 speed: 1.000000 />
+<position: 0:00:15.887888888 duration: 0:01:30.024000000 speed: 1.000000 />
+<position: 0:00:16.138222222 duration: 0:01:30.024000000 speed: 1.000000 />
+<position: 0:00:16.388555555 duration: 0:01:30.024000000 speed: 1.000000 />
+<position: 0:00:16.638722222 duration: 0:01:30.024000000 speed: 1.000000 />
+<position: 0:00:16.889222222 duration: 0:01:30.024000000 speed: 1.000000 />
+<position: 0:00:17.139555555 duration: 0:01:30.024000000 speed: 1.000000 />
+<position: 0:00:17.389888888 duration: 0:01:30.024000000 speed: 1.000000 />
+<position: 0:00:17.640888888 duration: 0:01:30.024000000 speed: 1.000000 />
+<position: 0:00:17.891222222 duration: 0:01:30.024000000 speed: 1.000000 />
+<position: 0:00:18.141888888 duration: 0:01:30.024000000 speed: 1.000000 />
+<position: 0:00:18.392222222 duration: 0:01:30.024000000 speed: 1.000000 />
+<position: 0:00:18.643055555 duration: 0:01:30.024000000 speed: 1.000000 />
+<position: 0:00:18.894055555 duration: 0:01:30.024000000 speed: 1.000000 />
+<position: 0:00:19.144388888 duration: 0:01:30.024000000 speed: 1.000000 />
+<position: 0:00:19.395555555 duration: 0:01:30.024000000 speed: 1.000000 />
+<position: 0:00:19.646388888 duration: 0:01:30.024000000 speed: 1.000000 />
+<position: 0:00:19.897055555 duration: 0:01:30.024000000 speed: 1.000000 />
+<position: 0:00:20.147888888 duration: 0:01:30.024000000 speed: 1.000000 />
+<position: 0:00:20.399055555 duration: 0:01:30.024000000 speed: 1.000000 />
+<position: 0:00:20.650055555 duration: 0:01:30.024000000 speed: 1.000000 />
+<position: 0:00:20.900722222 duration: 0:01:30.024000000 speed: 1.000000 />
+<position: 0:00:21.151055555 duration: 0:01:30.024000000 speed: 1.000000 />
+<position: 0:00:21.401222222 duration: 0:01:30.024000000 speed: 1.000000 />
+<position: 0:00:21.651722222 duration: 0:01:30.024000000 speed: 1.000000 />
+<position: 0:00:21.901888888 duration: 0:01:30.024000000 speed: 1.000000 />
+<position: 0:00:22.152388888 duration: 0:01:30.024000000 speed: 1.000000 />
+<position: 0:00:22.403388888 duration: 0:01:30.024000000 speed: 1.000000 />
+<position: 0:00:22.654055555 duration: 0:01:30.024000000 speed: 1.000000 />
+<position: 0:00:22.904888888 duration: 0:01:30.024000000 speed: 1.000000 />
+<position: 0:00:23.156055555 duration: 0:01:30.024000000 speed: 1.000000 />
+<position: 0:00:23.406555555 duration: 0:01:30.024000000 speed: 1.000000 />
+<position: 0:00:23.657222222 duration: 0:01:30.024000000 speed: 1.000000 />
+<position: 0:00:23.908055555 duration: 0:01:30.024000000 speed: 1.000000 />
+<position: 0:00:24.158555555 duration: 0:01:30.024000000 speed: 1.000000 />
+<position: 0:00:24.409555555 duration: 0:01:30.024000000 speed: 1.000000 />
+<position: 0:00:24.659888888 duration: 0:01:30.024000000 speed: 1.000000 />
+<position: 0:00:24.909888888 duration: 0:01:30.024000000 speed: 1.000000 />
+<position: 0:00:25.160888888 duration: 0:01:30.024000000 speed: 1.000000 />
+<position: 0:00:25.411222222 duration: 0:01:30.024000000 speed: 1.000000 />
+<position: 0:00:25.661555555 duration: 0:01:30.024000000 speed: 1.000000 />
+<position: 0:00:25.911722222 duration: 0:01:30.024000000 speed: 1.000000 />
+<position: 0:00:26.162222222 duration: 0:01:30.024000000 speed: 1.000000 />
+<position: 0:00:26.412388888 duration: 0:01:30.024000000 speed: 1.000000 />
+<position: 0:00:26.663388888 duration: 0:01:30.024000000 speed: 1.000000 />
+<position: 0:00:26.913722222 duration: 0:01:30.024000000 speed: 1.000000 />
+<position: 0:00:27.164888888 duration: 0:01:30.024000000 speed: 1.000000 />
+<position: 0:00:27.415888888 duration: 0:01:30.024000000 speed: 1.000000 />
+<position: 0:00:27.666388888 duration: 0:01:30.024000000 speed: 1.000000 />
+<position: 0:00:27.917388888 duration: 0:01:30.024000000 speed: 1.000000 />
+<position: 0:00:28.168388888 duration: 0:01:30.024000000 speed: 1.000000 />
+<position: 0:00:28.418722222 duration: 0:01:30.024000000 speed: 1.000000 />
+<position: 0:00:28.669055555 duration: 0:01:30.024000000 speed: 1.000000 />
+<position: 0:00:28.919388888 duration: 0:01:30.024000000 speed: 1.000000 />
+<position: 0:00:29.169722222 duration: 0:01:30.024000000 speed: 1.000000 />
+<position: 0:00:29.420055555 duration: 0:01:30.024000000 speed: 1.000000 />
+<position: 0:00:29.670222222 duration: 0:01:30.024000000 speed: 1.000000 />
+<position: 0:00:29.921055555 duration: 0:01:30.024000000 speed: 1.000000 />
+<position: 0:00:30.171555555 duration: 0:01:30.024000000 speed: 1.000000 />
+<position: 0:00:30.422055555 duration: 0:01:30.024000000 speed: 1.000000 />
+<position: 0:00:30.672222222 duration: 0:01:30.024000000 speed: 1.000000 />
+<position: 0:00:30.922555555 duration: 0:01:30.024000000 speed: 1.000000 />
+<position: 0:00:31.173055555 duration: 0:01:30.024000000 speed: 1.000000 />
+<position: 0:00:31.424055555 duration: 0:01:30.024000000 speed: 1.000000 />
+<position: 0:00:31.675222222 duration: 0:01:30.024000000 speed: 1.000000 />
+<position: 0:00:31.926555555 duration: 0:01:30.024000000 speed: 1.000000 />
+<position: 0:00:32.177722222 duration: 0:01:30.024000000 speed: 1.000000 />
+<position: 0:00:32.429055555 duration: 0:01:30.024000000 speed: 1.000000 />
+<position: 0:00:32.680222222 duration: 0:01:30.024000000 speed: 1.000000 />
+<position: 0:00:32.931555555 duration: 0:01:30.024000000 speed: 1.000000 />
+<position: 0:00:33.182722222 duration: 0:01:30.024000000 speed: 1.000000 />
+<position: 0:00:33.434055555 duration: 0:01:30.024000000 speed: 1.000000 />
+<position: 0:00:33.685222222 duration: 0:01:30.024000000 speed: 1.000000 />
+<position: 0:00:33.935722222 duration: 0:01:30.024000000 speed: 1.000000 />
+<position: 0:00:34.186222222 duration: 0:01:30.024000000 speed: 1.000000 />
+<position: 0:00:34.437388888 duration: 0:01:30.024000000 speed: 1.000000 />
+<position: 0:00:34.688055555 duration: 0:01:30.024000000 speed: 1.000000 />
+<position: 0:00:34.939388888 duration: 0:01:30.024000000 speed: 1.000000 />
+<position: 0:00:35.190722222 duration: 0:01:30.024000000 speed: 1.000000 />
+<position: 0:00:35.441888888 duration: 0:01:30.024000000 speed: 1.000000 />
+<position: 0:00:35.693055555 duration: 0:01:30.024000000 speed: 1.000000 />
+<position: 0:00:35.944388888 duration: 0:01:30.024000000 speed: 1.000000 />
+<position: 0:00:36.195555555 duration: 0:01:30.024000000 speed: 1.000000 />
+<position: 0:00:36.446888888 duration: 0:01:30.024000000 speed: 1.000000 />
+<position: 0:00:36.698055555 duration: 0:01:30.024000000 speed: 1.000000 />
+<position: 0:00:36.949388888 duration: 0:01:30.024000000 speed: 1.000000 />
+<position: 0:00:37.199722222 duration: 0:01:30.024000000 speed: 1.000000 />
+<position: 0:00:37.450888888 duration: 0:01:30.024000000 speed: 1.000000 />
+<position: 0:00:37.701888888 duration: 0:01:30.024000000 speed: 1.000000 />
+<position: 0:00:37.952388888 duration: 0:01:30.024000000 speed: 1.000000 />
+<position: 0:00:38.202555555 duration: 0:01:30.024000000 speed: 1.000000 />
+<position: 0:00:38.453555555 duration: 0:01:30.024000000 speed: 1.000000 />
+<position: 0:00:38.704055555 duration: 0:01:30.024000000 speed: 1.000000 />
+<position: 0:00:38.955222222 duration: 0:01:30.024000000 speed: 1.000000 />
+<position: 0:00:39.205888888 duration: 0:01:30.024000000 speed: 1.000000 />
+<position: 0:00:39.456222222 duration: 0:01:30.024000000 speed: 1.000000 />
+<position: 0:00:39.707055555 duration: 0:01:30.024000000 speed: 1.000000 />
+<position: 0:00:39.957555555 duration: 0:01:30.024000000 speed: 1.000000 />
+<position: 0:00:40.208555555 duration: 0:01:30.024000000 speed: 1.000000 />
+<position: 0:00:40.459388888 duration: 0:01:30.024000000 speed: 1.000000 />
+<position: 0:00:40.710555555 duration: 0:01:30.024000000 speed: 1.000000 />
+<position: 0:00:40.961888888 duration: 0:01:30.024000000 speed: 1.000000 />
+<position: 0:00:41.213055555 duration: 0:01:30.024000000 speed: 1.000000 />
+<position: 0:00:41.464388888 duration: 0:01:30.024000000 speed: 1.000000 />
+<position: 0:00:41.715722222 duration: 0:01:30.024000000 speed: 1.000000 />
+<position: 0:00:41.965888888 duration: 0:01:30.024000000 speed: 1.000000 />
+<position: 0:00:42.217222222 duration: 0:01:30.024000000 speed: 1.000000 />
+<position: 0:00:42.468388888 duration: 0:01:30.024000000 speed: 1.000000 />
+<position: 0:00:42.719555555 duration: 0:01:30.024000000 speed: 1.000000 />
+<position: 0:00:42.970055555 duration: 0:01:30.024000000 speed: 1.000000 />
+<position: 0:00:43.221222222 duration: 0:01:30.024000000 speed: 1.000000 />
+<position: 0:00:43.472388888 duration: 0:01:30.024000000 speed: 1.000000 />
+<position: 0:00:43.722722222 duration: 0:01:30.024000000 speed: 1.000000 />
+<position: 0:00:43.974055555 duration: 0:01:30.024000000 speed: 1.000000 />
+<position: 0:00:44.225222222 duration: 0:01:30.024000000 speed: 1.000000 />
+<position: 0:00:44.476555555 duration: 0:01:30.024000000 speed: 1.000000 />
+<position: 0:00:44.727055555 duration: 0:01:30.024000000 speed: 1.000000 />
+<position: 0:00:44.981388888 duration: 0:01:30.024000000 speed: 1.000000 />
+<position: 0:00:45.231555555 duration: 0:01:30.024000000 speed: 1.000000 />
+<position: 0:00:45.482888888 duration: 0:01:30.024000000 speed: 1.000000 />
+<position: 0:00:45.733222222 duration: 0:01:30.024000000 speed: 1.000000 />
+<position: 0:00:45.984555555 duration: 0:01:30.024000000 speed: 1.000000 />
+<position: 0:00:46.235555555 duration: 0:01:30.024000000 speed: 1.000000 />
+<position: 0:00:46.486722222 duration: 0:01:30.024000000 speed: 1.000000 />
+<position: 0:00:46.738055555 duration: 0:01:30.024000000 speed: 1.000000 />
+<position: 0:00:46.989055555 duration: 0:01:30.024000000 speed: 1.000000 />
+<position: 0:00:47.240222222 duration: 0:01:30.024000000 speed: 1.000000 />
+<position: 0:00:47.491055555 duration: 0:01:30.024000000 speed: 1.000000 />
+<position: 0:00:48.784555555 duration: 0:01:30.024000000 speed: 1.000000 />
+<position: 0:00:49.034722222 duration: 0:01:30.024000000 speed: 1.000000 />
+<position: 0:00:49.285222222 duration: 0:01:30.024000000 speed: 1.000000 />
+<position: 0:00:49.536055555 duration: 0:01:30.024000000 speed: 1.000000 />
+<position: 0:00:49.786222222 duration: 0:01:30.024000000 speed: 1.000000 />
+<position: 0:00:50.036388888 duration: 0:01:30.024000000 speed: 1.000000 />
+<position: 0:00:50.287555555 duration: 0:01:30.024000000 speed: 1.000000 />
+<position: 0:00:50.538222222 duration: 0:01:30.024000000 speed: 1.000000 />
+<position: 0:00:50.789555555 duration: 0:01:30.024000000 speed: 1.000000 />
+<position: 0:00:51.040388888 duration: 0:01:30.024000000 speed: 1.000000 />
+<position: 0:00:51.291555555 duration: 0:01:30.024000000 speed: 1.000000 />
+<position: 0:00:51.542555555 duration: 0:01:30.024000000 speed: 1.000000 />
+<position: 0:00:51.793888888 duration: 0:01:30.024000000 speed: 1.000000 />
+<position: 0:00:52.044055555 duration: 0:01:30.024000000 speed: 1.000000 />
+<position: 0:00:52.294388888 duration: 0:01:30.024000000 speed: 1.000000 />
+<position: 0:00:52.545555555 duration: 0:01:30.024000000 speed: 1.000000 />
+<position: 0:00:52.796888888 duration: 0:01:30.024000000 speed: 1.000000 />
+<position: 0:00:53.047555555 duration: 0:01:30.024000000 speed: 1.000000 />
+<position: 0:00:53.298722222 duration: 0:01:30.024000000 speed: 1.000000 />
+<position: 0:00:53.550055555 duration: 0:01:30.024000000 speed: 1.000000 />
+<position: 0:00:53.800555555 duration: 0:01:30.024000000 speed: 1.000000 />
+<position: 0:00:54.050888888 duration: 0:01:30.024000000 speed: 1.000000 />
+<position: 0:00:54.301388888 duration: 0:01:30.024000000 speed: 1.000000 />
+<position: 0:00:54.551888888 duration: 0:01:30.024000000 speed: 1.000000 />
+<position: 0:00:54.802388888 duration: 0:01:30.024000000 speed: 1.000000 />
+<position: 0:00:55.052888888 duration: 0:01:30.024000000 speed: 1.000000 />
+<position: 0:00:55.303222222 duration: 0:01:30.024000000 speed: 1.000000 />
+<position: 0:00:55.553722222 duration: 0:01:30.024000000 speed: 1.000000 />
+<position: 0:00:55.804055555 duration: 0:01:30.024000000 speed: 1.000000 />
+<position: 0:00:56.054388888 duration: 0:01:30.024000000 speed: 1.000000 />
+<position: 0:00:56.304888888 duration: 0:01:30.024000000 speed: 1.000000 />
+<position: 0:00:56.555555555 duration: 0:01:30.024000000 speed: 1.000000 />
+<position: 0:00:56.805888888 duration: 0:01:30.024000000 speed: 1.000000 />
+<position: 0:00:57.056222222 duration: 0:01:30.024000000 speed: 1.000000 />
+<position: 0:00:57.307055555 duration: 0:01:30.024000000 speed: 1.000000 />
+<position: 0:00:57.557388888 duration: 0:01:30.024000000 speed: 1.000000 />
+<position: 0:00:57.808888888 duration: 0:01:30.024000000 speed: 1.000000 />
+<position: 0:00:58.060055555 duration: 0:01:30.024000000 speed: 1.000000 />
+<position: 0:00:58.311388888 duration: 0:01:30.024000000 speed: 1.000000 />
+<position: 0:00:58.562555555 duration: 0:01:30.024000000 speed: 1.000000 />
+<position: 0:00:58.813888888 duration: 0:01:30.024000000 speed: 1.000000 />
+<position: 0:00:59.065055555 duration: 0:01:30.024000000 speed: 1.000000 />
+<position: 0:00:59.316388888 duration: 0:01:30.024000000 speed: 1.000000 />
+<position: 0:00:59.567555555 duration: 0:01:30.024000000 speed: 1.000000 />
+<position: 0:00:59.817888888 duration: 0:01:30.024000000 speed: 1.000000 />
+<position: 0:01:00.069055555 duration: 0:01:30.024000000 speed: 1.000000 />
+<position: 0:01:00.320388888 duration: 0:01:30.024000000 speed: 1.000000 />
+<position: 0:01:00.571555555 duration: 0:01:30.024000000 speed: 1.000000 />
+<position: 0:01:00.822888888 duration: 0:01:30.024000000 speed: 1.000000 />
+<position: 0:01:01.073222222 duration: 0:01:30.024000000 speed: 1.000000 />
+<position: 0:01:01.324388888 duration: 0:01:30.024000000 speed: 1.000000 />
+<position: 0:01:01.575055555 duration: 0:01:30.024000000 speed: 1.000000 />
+<position: 0:01:01.826388888 duration: 0:01:30.024000000 speed: 1.000000 />
+<position: 0:01:02.077388888 duration: 0:01:30.024000000 speed: 1.000000 />
+<position: 0:01:02.328722222 duration: 0:01:30.024000000 speed: 1.000000 />
+<position: 0:01:02.579055555 duration: 0:01:30.024000000 speed: 1.000000 />
+<position: 0:01:02.829388888 duration: 0:01:30.024000000 speed: 1.000000 />
+<position: 0:01:03.080722222 duration: 0:01:30.024000000 speed: 1.000000 />
+<position: 0:01:03.331222222 duration: 0:01:30.024000000 speed: 1.000000 />
+<position: 0:01:03.582222222 duration: 0:01:30.024000000 speed: 1.000000 />
+<position: 0:01:03.832555555 duration: 0:01:30.024000000 speed: 1.000000 />
+<position: 0:01:04.082888888 duration: 0:01:30.024000000 speed: 1.000000 />
+<position: 0:01:04.333222222 duration: 0:01:30.024000000 speed: 1.000000 />
+<position: 0:01:04.583388888 duration: 0:01:30.024000000 speed: 1.000000 />
+<position: 0:01:04.834722222 duration: 0:01:30.024000000 speed: 1.000000 />
+<position: 0:01:05.086055555 duration: 0:01:30.024000000 speed: 1.000000 />
+<position: 0:01:05.337222222 duration: 0:01:30.024000000 speed: 1.000000 />
+<position: 0:01:05.588555555 duration: 0:01:30.024000000 speed: 1.000000 />
+<position: 0:01:05.839722222 duration: 0:01:30.024000000 speed: 1.000000 />
+<position: 0:01:06.091055555 duration: 0:01:30.024000000 speed: 1.000000 />
+<position: 0:01:06.342388888 duration: 0:01:30.024000000 speed: 1.000000 />
+<position: 0:01:06.592722222 duration: 0:01:30.024000000 speed: 1.000000 />
+<position: 0:01:06.843222222 duration: 0:01:30.024000000 speed: 1.000000 />
+<position: 0:01:07.093388888 duration: 0:01:30.024000000 speed: 1.000000 />
+<position: 0:01:07.343722222 duration: 0:01:30.024000000 speed: 1.000000 />
+<position: 0:01:07.594888888 duration: 0:01:30.024000000 speed: 1.000000 />
+<position: 0:01:07.846222222 duration: 0:01:30.024000000 speed: 1.000000 />
+<position: 0:01:08.096555555 duration: 0:01:30.024000000 speed: 1.000000 />
+<position: 0:01:08.346888888 duration: 0:01:30.024000000 speed: 1.000000 />
+<position: 0:01:08.597222222 duration: 0:01:30.024000000 speed: 1.000000 />
+<position: 0:01:08.847555555 duration: 0:01:30.024000000 speed: 1.000000 />
+<position: 0:01:09.098055555 duration: 0:01:30.024000000 speed: 1.000000 />
+<position: 0:01:09.348388888 duration: 0:01:30.024000000 speed: 1.000000 />
+<position: 0:01:09.598722222 duration: 0:01:30.024000000 speed: 1.000000 />
+<position: 0:01:09.850055555 duration: 0:01:30.024000000 speed: 1.000000 />
+<position: 0:01:10.101222222 duration: 0:01:30.024000000 speed: 1.000000 />
+<position: 0:01:10.349555555 duration: 0:01:30.024000000 speed: 1.000000 />
+<position: 0:01:10.599888888 duration: 0:01:30.024000000 speed: 1.000000 />
+<position: 0:01:10.850055555 duration: 0:01:30.024000000 speed: 1.000000 />
+<position: 0:01:11.105888888 duration: 0:01:30.024000000 speed: 1.000000 />
+<position: 0:01:11.356222222 duration: 0:01:30.024000000 speed: 1.000000 />
+<position: 0:01:11.606555555 duration: 0:01:30.024000000 speed: 1.000000 />
+<position: 0:01:11.857888888 duration: 0:01:30.024000000 speed: 1.000000 />
+<position: 0:01:12.109055555 duration: 0:01:30.024000000 speed: 1.000000 />
+<position: 0:01:12.360388888 duration: 0:01:30.024000000 speed: 1.000000 />
+<position: 0:01:12.611555555 duration: 0:01:30.024000000 speed: 1.000000 />
+<position: 0:01:12.862888888 duration: 0:01:30.024000000 speed: 1.000000 />
+<position: 0:01:13.114055555 duration: 0:01:30.024000000 speed: 1.000000 />
+<position: 0:01:13.365388888 duration: 0:01:30.024000000 speed: 1.000000 />
+<position: 0:01:13.615888888 duration: 0:01:30.024000000 speed: 1.000000 />
+<position: 0:01:13.867222222 duration: 0:01:30.024000000 speed: 1.000000 />
+<position: 0:01:14.118388888 duration: 0:01:30.024000000 speed: 1.000000 />
+<position: 0:01:14.369722222 duration: 0:01:30.024000000 speed: 1.000000 />
+<position: 0:01:14.620888888 duration: 0:01:30.024000000 speed: 1.000000 />
+<position: 0:01:14.872222222 duration: 0:01:30.024000000 speed: 1.000000 />
+<position: 0:01:15.122388888 duration: 0:01:30.024000000 speed: 1.000000 />
+<position: 0:01:15.373722222 duration: 0:01:30.024000000 speed: 1.000000 />
+<position: 0:01:15.624888888 duration: 0:01:30.024000000 speed: 1.000000 />
+<position: 0:01:15.876222222 duration: 0:01:30.024000000 speed: 1.000000 />
+<position: 0:01:16.127388888 duration: 0:01:30.024000000 speed: 1.000000 />
+<position: 0:01:16.378722222 duration: 0:01:30.024000000 speed: 1.000000 />
+<position: 0:01:16.629888888 duration: 0:01:30.024000000 speed: 1.000000 />
+<position: 0:01:16.881222222 duration: 0:01:30.024000000 speed: 1.000000 />
+<position: 0:01:17.132555555 duration: 0:01:30.024000000 speed: 1.000000 />
+<position: 0:01:17.382888888 duration: 0:01:30.024000000 speed: 1.000000 />
+<position: 0:01:17.633222222 duration: 0:01:30.024000000 speed: 1.000000 />
+<position: 0:01:17.884388888 duration: 0:01:30.024000000 speed: 1.000000 />
+<position: 0:01:18.135722222 duration: 0:01:30.024000000 speed: 1.000000 />
+<position: 0:01:18.386888888 duration: 0:01:30.024000000 speed: 1.000000 />
+<position: 0:01:18.638222222 duration: 0:01:30.024000000 speed: 1.000000 />
+<position: 0:01:18.889388888 duration: 0:01:30.024000000 speed: 1.000000 />
+<position: 0:01:19.140722222 duration: 0:01:30.024000000 speed: 1.000000 />
+<position: 0:01:19.391888888 duration: 0:01:30.024000000 speed: 1.000000 />
+<position: 0:01:19.643222222 duration: 0:01:30.024000000 speed: 1.000000 />
+<position: 0:01:19.894555555 duration: 0:01:30.024000000 speed: 1.000000 />
+<position: 0:01:20.145722222 duration: 0:01:30.024000000 speed: 1.000000 />
+<position: 0:01:20.397055555 duration: 0:01:30.024000000 speed: 1.000000 />
+<position: 0:01:20.648222222 duration: 0:01:30.024000000 speed: 1.000000 />
+<position: 0:01:20.899555555 duration: 0:01:30.024000000 speed: 1.000000 />
+<position: 0:01:21.150722222 duration: 0:01:30.024000000 speed: 1.000000 />
+<position: 0:01:21.402555555 duration: 0:01:30.024000000 speed: 1.000000 />
+<position: 0:01:21.653722222 duration: 0:01:30.024000000 speed: 1.000000 />
+<position: 0:01:21.904888888 duration: 0:01:30.024000000 speed: 1.000000 />
+<position: 0:01:22.156222222 duration: 0:01:30.024000000 speed: 1.000000 />
+<position: 0:01:22.407388888 duration: 0:01:30.024000000 speed: 1.000000 />
+<position: 0:01:22.658555555 duration: 0:01:30.024000000 speed: 1.000000 />
+<position: 0:01:22.909888888 duration: 0:01:30.024000000 speed: 1.000000 />
+<position: 0:01:23.161055555 duration: 0:01:30.024000000 speed: 1.000000 />
+<position: 0:01:23.412222222 duration: 0:01:30.024000000 speed: 1.000000 />
+<position: 0:01:23.662555555 duration: 0:01:30.024000000 speed: 1.000000 />
+<position: 0:01:23.913722222 duration: 0:01:30.024000000 speed: 1.000000 />
+<position: 0:01:24.165055555 duration: 0:01:30.024000000 speed: 1.000000 />
+<position: 0:01:24.416055555 duration: 0:01:30.024000000 speed: 1.000000 />
+<position: 0:01:24.667388888 duration: 0:01:30.024000000 speed: 1.000000 />
+<position: 0:01:24.918055555 duration: 0:01:30.024000000 speed: 1.000000 />
+<position: 0:01:25.168555555 duration: 0:01:30.024000000 speed: 1.000000 />
+<position: 0:01:25.419055555 duration: 0:01:30.024000000 speed: 1.000000 />
+<position: 0:01:25.669888888 duration: 0:01:30.024000000 speed: 1.000000 />
+<position: 0:01:25.920388888 duration: 0:01:30.024000000 speed: 1.000000 />
+<position: 0:01:26.170722222 duration: 0:01:30.024000000 speed: 1.000000 />
+<position: 0:01:26.421555555 duration: 0:01:30.024000000 speed: 1.000000 />
+<position: 0:01:26.672222222 duration: 0:01:30.024000000 speed: 1.000000 />
+<position: 0:01:26.922388888 duration: 0:01:30.024000000 speed: 1.000000 />
+<position: 0:01:27.173222222 duration: 0:01:30.024000000 speed: 1.000000 />
+<position: 0:01:27.423888888 duration: 0:01:30.024000000 speed: 1.000000 />
+<position: 0:01:27.674222222 duration: 0:01:30.024000000 speed: 1.000000 />
+<position: 0:01:27.925055555 duration: 0:01:30.024000000 speed: 1.000000 />
+<position: 0:01:28.176388888 duration: 0:01:30.024000000 speed: 1.000000 />
+<position: 0:01:28.427555555 duration: 0:01:30.024000000 speed: 1.000000 />
+<position: 0:01:28.678888888 duration: 0:01:30.024000000 speed: 1.000000 />
+<position: 0:01:28.930222222 duration: 0:01:30.024000000 speed: 1.000000 />
+<position: 0:01:29.181388888 duration: 0:01:30.024000000 speed: 1.000000 />
+<position: 0:01:29.432722222 duration: 0:01:30.024000000 speed: 1.000000 />
+<position: 0:01:29.682888888 duration: 0:01:30.024000000 speed: 1.000000 />
+<position: 0:01:29.933222222 duration: 0:01:30.024000000 speed: 1.000000 />
+<position: 0:01:30.184388888 duration: 0:01:30.024000000 speed: 1.000000 />
+     issue : EOS events that are part of the same pipeline 'operation' should have the same seqnum
+             Detected on <mpegpsdemux0:video_e0, multiqueue0:sink_0, multiqueue0:src_0, mpegvparse0:sink, mpegvparse0:src, v4l2dec0:sink, v4l2dec0:src, inputselector0:sink_0, inputselector0:src>
+             Detected on <mpegpsdemux0:audio_c0, multiqueue0:sink_1, multiqueue0:src_1, mpegaudioparse0:sink, mpegaudioparse0:src, mad0:sink, mad0:src, inputselector1:sink_0, inputselector1:src>
+             Detected on <audiotee:sink, audiotee:src_0, streamsynchronizer0:sink_1, streamsynchronizer0:src_1>
+             Detected on <streamsynchronizer0:sink_0, streamsynchronizer0:src_0>
+             Detected on <aqueue:sink, aqueue:src>
+             Detected on <vqueue:sink, vqueue:src>
+             Detected on <conv:sink, conv:src, scale:sink, scale:src, waylandsink0:sink>
+             Detected on <conv:sink, conv:src, resample:sink, resample:src, volume:sink, volume:src, alsasink1:sink>
+             Description : when events/messages are created from another event/message, they should have their seqnums set to the original event/message seqnum
+
+   warning : received the same caps twice
+             Detected on <v4l2dec0:sink>
+             Detected on <mad0:sink>
+
+   warning : buffer timestamp is out of the received buffer timestamps' range
+             Detected on <v4l2dec0:src>
+             Description : a buffer leaving an element should have its timestamps in the range of the received buffers timestamps. i.e. If an element received buffers with timestamps from 0s to 10s, it can't push a buffer with with a 11s timestamp, because it doesn't have data for that
+
+Issues found: 3
+
+=======> Test PASSED (Return value: 0)
+
+TC_AVP_LS_LR_1.1.3: pass
+TC_AVP_LS_LR_1.1.4:
+Starting pipeline
+Prerolling...
+Pipeline started
+<position: 0:00:01.250422700 duration: 0:00:29.888782888 speed: 1.000000 />
+<position: 0:00:01.501157301 duration: 0:00:29.888782888 speed: 1.000000 />
+<position: 0:00:01.751732767 duration: 0:00:29.888782888 speed: 1.000000 />
+<position: 0:00:02.002338068 duration: 0:00:29.888782888 speed: 1.000000 />
+<position: 0:00:02.252740701 duration: 0:00:29.888782888 speed: 1.000000 />
+<position: 0:00:02.503185435 duration: 0:00:29.888782888 speed: 1.000000 />
+<position: 0:00:02.754223202 duration: 0:00:29.888782888 speed: 1.000000 />
+<position: 0:00:03.004364269 duration: 0:00:29.888782888 speed: 1.000000 />
+<position: 0:00:03.254808236 duration: 0:00:29.888782888 speed: 1.000000 />
+<position: 0:00:03.505794736 duration: 0:00:29.888782888 speed: 1.000000 />
+<position: 0:00:03.756050037 duration: 0:00:29.787807296 speed: 1.000000 />
+<position: 0:00:04.006850204 duration: 0:00:29.787807296 speed: 1.000000 />
+<position: 0:00:04.257839104 duration: 0:00:29.686831666 speed: 1.000000 />
+<position: 0:00:04.508810037 duration: 0:00:29.686831666 speed: 1.000000 />
+<position: 0:00:04.759840638 duration: 0:00:29.585856037 speed: 1.000000 />
+<position: 0:00:05.010867705 duration: 0:00:29.585856037 speed: 1.000000 />
+<position: 0:00:05.261866505 duration: 0:00:29.484880444 speed: 1.000000 />
+<position: 0:00:05.512914239 duration: 0:00:29.484880444 speed: 1.000000 />
+<position: 0:00:05.763830906 duration: 0:00:29.383904814 speed: 1.000000 />
+<position: 0:00:06.014865739 duration: 0:00:29.383904814 speed: 1.000000 />
+<position: 0:00:06.265817773 duration: 0:00:29.282929185 speed: 1.000000 />
+<position: 0:00:06.516872006 duration: 0:00:29.282929185 speed: 1.000000 />
+<position: 0:00:06.768122807 duration: 0:00:29.181953592 speed: 1.000000 />
+<position: 0:00:07.018895907 duration: 0:00:29.181953592 speed: 1.000000 />
+<position: 0:00:07.269842907 duration: 0:00:29.080977962 speed: 1.000000 />
+<position: 0:00:07.520852774 duration: 0:00:29.080977962 speed: 1.000000 />
+<position: 0:00:07.771276541 duration: 0:00:28.980002333 speed: 1.000000 />
+<position: 0:00:08.021786042 duration: 0:00:28.980002333 speed: 1.000000 />
+<position: 0:00:08.272776409 duration: 0:00:28.879026740 speed: 1.000000 />
+<position: 0:00:08.523806676 duration: 0:00:28.879026740 speed: 1.000000 />
+<position: 0:00:08.774200709 duration: 0:00:28.778051111 speed: 1.000000 />
+<position: 0:00:09.024778309 duration: 0:00:28.778051111 speed: 1.000000 />
+<position: 0:00:09.275788210 duration: 0:00:28.677075481 speed: 1.000000 />
+<position: 0:00:09.526795677 duration: 0:00:28.677075481 speed: 1.000000 />
+<position: 0:00:09.777831810 duration: 0:00:28.576099851 speed: 1.000000 />
+<position: 0:00:10.028747044 duration: 0:00:28.576099851 speed: 1.000000 />
+<position: 0:00:10.279339378 duration: 0:00:28.475124259 speed: 1.000000 />
+<position: 0:00:10.529913778 duration: 0:00:28.475124259 speed: 1.000000 />
+<position: 0:00:10.780282212 duration: 0:00:28.374148629 speed: 1.000000 />
+<position: 0:00:11.030846979 duration: 0:00:28.374148629 speed: 1.000000 />
+<position: 0:00:11.281292412 duration: 0:00:28.273173000 speed: 1.000000 />
+<position: 0:00:11.531772346 duration: 0:00:28.273173000 speed: 1.000000 />
+<position: 0:00:11.782150579 duration: 0:00:28.172197407 speed: 1.000000 />
+<position: 0:00:12.032764813 duration: 0:00:28.172197407 speed: 1.000000 />
+<position: 0:00:12.283810247 duration: 0:00:28.071221777 speed: 1.000000 />
+<position: 0:00:12.534790447 duration: 0:00:28.071221777 speed: 1.000000 />
+<position: 0:00:12.785816014 duration: 0:00:27.970246148 speed: 1.000000 />
+<position: 0:00:13.037045981 duration: 0:00:27.970246148 speed: 1.000000 />
+<position: 0:00:13.287316215 duration: 0:00:27.869270555 speed: 1.000000 />
+<position: 0:00:13.537891482 duration: 0:00:27.869270555 speed: 1.000000 />
+<position: 0:00:13.788855148 duration: 0:00:27.768294925 speed: 1.000000 />
+<position: 0:00:14.039790082 duration: 0:00:27.768294925 speed: 1.000000 />
+<position: 0:00:14.290141749 duration: 0:00:27.667319296 speed: 1.000000 />
+<position: 0:00:14.541157883 duration: 0:00:27.667319296 speed: 1.000000 />
+<position: 0:00:14.791802983 duration: 0:00:27.566343703 speed: 1.000000 />
+<position: 0:00:15.042858083 duration: 0:00:27.566343703 speed: 1.000000 />
+<position: 0:00:15.293142084 duration: 0:00:27.465368074 speed: 1.000000 />
+<position: 0:00:15.544037617 duration: 0:00:27.465368074 speed: 1.000000 />
+<position: 0:00:15.794161584 duration: 0:00:27.364392444 speed: 1.000000 />
+<position: 0:00:16.045236518 duration: 0:00:27.364392444 speed: 1.000000 />
+<position: 0:00:16.296201218 duration: 0:00:27.263416851 speed: 1.000000 />
+<position: 0:00:16.546984952 duration: 0:00:27.263416851 speed: 1.000000 />
+<position: 0:00:16.797769885 duration: 0:00:27.162441222 speed: 1.000000 />
+<position: 0:00:17.048911486 duration: 0:00:27.162441222 speed: 1.000000 />
+<position: 0:00:17.299185753 duration: 0:00:27.061465592 speed: 1.000000 />
+<position: 0:00:17.550224420 duration: 0:00:27.061465592 speed: 1.000000 />
+<position: 0:00:17.801169887 duration: 0:00:26.960489962 speed: 1.000000 />
+<position: 0:00:18.052474187 duration: 0:00:26.960489962 speed: 1.000000 />
+<position: 0:00:18.303357021 duration: 0:00:26.859514370 speed: 1.000000 />
+<position: 0:00:18.553937788 duration: 0:00:26.859514370 speed: 1.000000 />
+<position: 0:00:18.804811421 duration: 0:00:26.758538740 speed: 1.000000 />
+<position: 0:00:19.055797221 duration: 0:00:26.758538740 speed: 1.000000 />
+<position: 0:00:19.306814855 duration: 0:00:26.657563111 speed: 1.000000 />
+<position: 0:00:19.557936322 duration: 0:00:26.657563111 speed: 1.000000 />
+<position: 0:00:19.808785022 duration: 0:00:26.556587518 speed: 1.000000 />
+<position: 0:00:20.059780256 duration: 0:00:26.556587518 speed: 1.000000 />
+<position: 0:00:20.310183423 duration: 0:00:26.455611888 speed: 1.000000 />
+<position: 0:00:20.560759090 duration: 0:00:26.455611888 speed: 1.000000 />
+<position: 0:00:20.811816690 duration: 0:00:26.354636259 speed: 1.000000 />
+<position: 0:00:21.063002524 duration: 0:00:26.354636259 speed: 1.000000 />
+<position: 0:00:21.313774991 duration: 0:00:26.253660666 speed: 1.000000 />
+<position: 0:00:21.564898658 duration: 0:00:26.253660666 speed: 1.000000 />
+<position: 0:00:21.815841691 duration: 0:00:26.152685037 speed: 1.000000 />
+<position: 0:00:22.066743725 duration: 0:00:26.152685037 speed: 1.000000 />
+<position: 0:00:22.317846359 duration: 0:00:26.051709407 speed: 1.000000 />
+<position: 0:00:22.568881292 duration: 0:00:26.051709407 speed: 1.000000 />
+<position: 0:00:22.819208626 duration: 0:00:25.950733814 speed: 1.000000 />
+<position: 0:00:23.069940026 duration: 0:00:25.950733814 speed: 1.000000 />
+<position: 0:00:23.320838627 duration: 0:00:25.849758185 speed: 1.000000 />
+<position: 0:00:23.571827727 duration: 0:00:25.849758185 speed: 1.000000 />
+<position: 0:00:23.822064960 duration: 0:00:25.748782555 speed: 1.000000 />
+<position: 0:00:24.072850127 duration: 0:00:25.748782555 speed: 1.000000 />
+<position: 0:00:24.323171261 duration: 0:00:25.647806962 speed: 1.000000 />
+<position: 0:00:24.573921028 duration: 0:00:25.647806962 speed: 1.000000 />
+<position: 0:00:24.824842562 duration: 0:00:25.546831333 speed: 1.000000 />
+<position: 0:00:25.075896795 duration: 0:00:25.546831333 speed: 1.000000 />
+<position: 0:00:25.326848096 duration: 0:00:25.445855703 speed: 1.000000 />
+<position: 0:00:25.577810496 duration: 0:00:25.445855703 speed: 1.000000 />
+<position: 0:00:25.828401230 duration: 0:00:25.344880111 speed: 1.000000 />
+<position: 0:00:26.078934796 duration: 0:00:25.344880111 speed: 1.000000 />
+<position: 0:00:26.329413097 duration: 0:00:25.344880111 speed: 1.000000 />
+<position: 0:00:26.579886630 duration: 0:00:25.344880111 speed: 1.000000 />
+   warning : a serialized event received should be pushed in the same 'time' as it was received
+             Detected on <multiqueue0:src_0>
+             Description : serialized events should be pushed in the same order they are received and serialized with buffers. If an event is received after a buffer with timestamp end 'X', it should be pushed right after buffers with timestamp end 'X'
+
+     issue : EOS events that are part of the same pipeline 'operation' should have the same seqnum
+             Detected on <tsdemux0:video_00e0, multiqueue0:sink_0, multiqueue0:src_0, mpegvparse0:sink, mpegvparse0:src, v4l2dec0:sink, v4l2dec0:src, inputselector0:sink_0, inputselector0:src>
+             Detected on <streamsynchronizer0:sink_0, streamsynchronizer0:src_0>
+             Detected on <vqueue:sink, vqueue:src>
+             Detected on <conv:sink, conv:src, scale:sink, scale:src, waylandsink0:sink>
+             Description : when events/messages are created from another event/message, they should have their seqnums set to the original event/message seqnum
+
+   warning : received the same caps twice
+             Detected on <v4l2dec0:sink>
+
+Issues found: 3
+
+=======> Test PASSED (Return value: 0)
+
+TC_AVP_LS_LR_1.1.4: pass
