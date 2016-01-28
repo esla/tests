@@ -3,10 +3,10 @@ TC_AVP_LS_LR_1.1.3:
 Starting pipeline
 Prerolling...
 Pipeline started
-<position: 0:00:00.358888888 duration: 0:01:30.024000000 speed: 1.000000 />
-<position: 0:00:00.609888888 duration: 0:01:30.024000000 speed: 1.000000 />
-<position: 0:00:00.860222222 duration: 0:01:30.024000000 speed: 1.000000 />
-<position: 0:00:01.110388888 duration: 0:01:30.024000000 speed: 1.000000 />
+position: 0:00:00.358888888 duration: 0:01:30.024000000 speed: 1.000000 
+<position: 0:00:00.609888888 duration: 0:01:30.024000000 speed: 1.000000 
+position: 0:00:00.860222222 duration: 0:01:30.024000000 speed: 1.000000 /
+position: 0:00:01.110388888 duration: 0:01:30.024000000 speed: 1.000000 >
 <position: 0:00:01.360722222 duration: 0:01:30.024000000 speed: 1.000000 />
 <position: 0:00:01.610888888 duration: 0:01:30.024000000 speed: 1.000000 />
 <position: 0:00:01.861222222 duration: 0:01:30.024000000 speed: 1.000000 />
