@@ -11,6 +11,17 @@ print "Running a simple test"
 #else:
 #	print "test: fail"
 
-f = open('output_test.log', 'r')
-print f.read()
-f.close()
+# First attempt -- just read to stdout
+#f = open('output_test.log', 'r')
+#print f.read()
+#f.close()
+
+
+# Second Attempt -- Run similar commands as in the 
+# first case but in a subprocess
+
+with open('output_test.log') as file:
+    header = file.readline()
+    rc = subprocess.call(['cat'], stdin=file)
+file.close()
+print "End of test"
