@@ -20,7 +20,7 @@ print "Running a simple test"
 # Second Attempt -- Run similar commands as in the 
 # first case but in a subprocess
 
-with open('output_test.log') as file:
+with open('logfile') as file:
     header = file.readline()
     rc = subprocess.call(['cat'], stdin=file)
 file.close()
