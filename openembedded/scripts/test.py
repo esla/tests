@@ -6,8 +6,10 @@
 #		pp=pprint.PrettyPrinter()
 #		pp.pprint(line)
 #f.close()
-
+import pprint
 f= open('logfile','r')	
 for line in f.read().split('\r'):
-	print line
+	pp = pprint.PrettyPrinter()
+	pp.pprint(line)
+	#print line
 f.close()
