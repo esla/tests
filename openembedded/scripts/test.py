@@ -1,3 +1,4 @@
+#!/usr/bin/env python
 
 #with open('log','rU') as f:
 #	for line in f.readline():
