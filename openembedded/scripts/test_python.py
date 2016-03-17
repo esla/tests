@@ -30,7 +30,8 @@ import textwrap
 f= open('logfile','r')
 #for line in f.read().split('\r'):
 for line in f.readlines():
-	print "\n".join(textwrap.wrap(line, width=3000))
+	#print "\n".join(textwrap.wrap(line, width=3000))
+	line
 f.close()
 
 print "End of test"
