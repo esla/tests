@@ -26,10 +26,11 @@ print "Running a simple test"
 #    rc = subprocess.call(['cat'], stdin=file)
 #file.close()
 
+import textwrap
 f= open('logfile','r')
 #for line in f.read().split('\r'):
 for line in f.readlines():
-        print line
+	print "\n".join(textwrap.wrap(line, width=80))
 f.close()
 
 print "End of test"
