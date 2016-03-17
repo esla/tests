@@ -20,16 +20,16 @@ print "Running a simple test"
 # Second Attempt -- Run similar commands as in the 
 # first case but in a subprocess
 
-with open('logfile') as file:
+#with open('logfile') as file:
 #with open('logfile_without_CR') as file:
-    header = file.readline()
-    rc = subprocess.call(['cat'], stdin=file)
-file.close()
+#    header = file.readline()
+#    rc = subprocess.call(['cat'], stdin=file)
+#file.close()
 
-#f= open('logfile','r')
+f= open('logfile','r')
 #for line in f.read().split('\r'):
-#for line in f.read():
-#        print line
-#f.close()
+for line in f.read():
+        print line
+f.close()
 
 print "End of test"
