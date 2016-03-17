@@ -27,7 +27,8 @@ print "Running a simple test"
 #file.close()
 
 f= open('logfile','r')
-for line in f.read().split('\r'):
+#for line in f.read().split('\r'):
+for line in f.read():
         print line
 f.close()
 
