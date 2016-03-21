@@ -23,7 +23,7 @@ print "Running a simple test"
 #with open('logfile') as file:
 with open('logfile') as file:
     header = file.readline()
-    rc = subprocess.call(['cat -v'], stdin=file)
+    rc = subprocess.call(["cat", "-v"], stdin=file)
 file.close()
 print "End of test"
 
