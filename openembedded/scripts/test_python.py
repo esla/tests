@@ -7,9 +7,9 @@ print "Running a simple test"
 #ret = subprocess.call(wget_command,shell=True)
 
 #if ret == 0:
-#	print "test: pass"
+#       print "test: pass"
 #else:
-#	print "test: fail"
+#       print "test: fail"
 
 # First attempt -- just read to stdout
 #f = open('output_test.log', 'r')
@@ -21,17 +21,9 @@ print "Running a simple test"
 # first case but in a subprocess
 
 #with open('logfile') as file:
-#with open('logfile_without_CR') as file:
-#    header = file.readline()
-#    rc = subprocess.call(['cat'], stdin=file)
-#file.close()
-
-import textwrap
-f= open('logfile','r')
-#for line in f.read().split('\r'):
-for line in f.readlines():
-	#print "\n".join(textwrap.wrap(line, width=3000))
-	line
-f.close()
-
+with open('logfile') as file:
+    header = file.readline()
+    rc = subprocess.call(['cat -v'], stdin=file)
+file.close()
 print "End of test"
+
