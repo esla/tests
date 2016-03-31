@@ -4,7 +4,7 @@ metadata:
     version: 20151112
     description: "Run LTP-DDT test suite on Debian."
     maintainer:
-	- milosz.wasilewski@linaro.org
+        - milosz.wasilewski@linaro.org
         - timothy.anzaku@linaro.org
     os:
         - debian
