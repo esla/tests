@@ -29,7 +29,7 @@ usage()
     -h              Help. Prints all available options.
     -p LTP_PATH     Default path for ltp-ddt. Default path is /opt/ltp
     -P PLATFORM     Platform to run tests on. Used to filter device driver tests (ddt)
-    -s PATTERN      Only run test cases which match PATTERN. Patterns seperated by ','
+    -s PATTERNS      Only run test cases which match PATTERNS. Patterns seperated by ','
 
     example: ./${0##*/} -p /home/test/ltp -f ddt/memtest -s IN_ALL_BANK,OUT_ALL_BANK
 
